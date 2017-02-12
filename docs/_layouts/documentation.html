@@ -8,10 +8,7 @@
     {% include header.html %}
 
     <div class="menu">
-        {% assign menu = site.menus.main %}
-        {% include
-          _menus.html
-        %}
+        {% include _menus.html nav=site.data.documentation %}
     </div>
 
     <main class="page-content" aria-label="Content">

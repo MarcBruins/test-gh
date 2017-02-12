@@ -1,17 +1,17 @@
-<ul>
-  {% for item in menu %}
-    <li>
-      <span>
-        <a href="{{ item.url }}">
-          {{ item.title }}
-        </a>
-      </span>
-      
-      {% if item.children %}
-        {% assign menu = item.children %}
-        {% include
-          _menus.html
-        %}
-      {% endif %}
-  {% endfor %}
-</ul>
+ {% assign navurl = page.url | remove: 'index.html' %}
+    <ul>
+    {% for item in include.nav %}
+        <li>
+            <a href="{{ item.url }}">
+                {% if item.url == navurl %}
+                    <b>{{ item.text }}</b>
+                {% else %}
+                    {{ item.text }}
+                {% endif %}
+            </a>
+        </li>
+        {% if item.subitems %}
+            {% include _menus.html nav=item.subitems %}
+        {% endif %}
+    {% endfor %}
+    </ul>

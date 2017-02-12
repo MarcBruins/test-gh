@@ -1,0 +1,9 @@
+# Important: all URLs must have a trailing slash!
+
+- text: Getting Started with MvvmCross
+  url: /documentation/getting-started-with-mvvmcross/
+- text: Get MvvmCross
+  url: /documentation/get-mvvmcross/
+  subitems:
+  - text: Nuget
+    url: /documentation/get-mvvmcross/nuget/
