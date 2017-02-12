@@ -7,3 +7,8 @@
   subitems:
   - text: Nuget
     url: /documentation/get-mvvmcross/nuget/
+  - text: Two Deep
+    url: /documentation/get-mvvmcross/two-deep/
+    subitems:
+    - text: Three Deep
+      url: /documentation/get-mvvmcross/two-deep/three-deep/
