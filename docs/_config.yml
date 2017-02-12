@@ -34,4 +34,4 @@ exclude:
   - Gemfile.lock
 
 
-baseurl: test-gh
+baseurl: test-gh/
