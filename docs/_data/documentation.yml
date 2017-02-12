@@ -1,14 +1,14 @@
 # Important: all URLs must have a trailing slash!
 
 - text: Getting Started with MvvmCross
-  url: documentation/getting-started-with-mvvmcross/
+  url: /test-gh/documentation/getting-started-with-mvvmcross/
 - text: Get MvvmCross
-  url: documentation/get-mvvmcross/
+  url: /test-gh/documentation/get-mvvmcross/
   subitems:
   - text: Nuget
-    url: documentation/get-mvvmcross/nuget/
+    url: /test-gh/documentation/get-mvvmcross/nuget/
   - text: Two Deep
-    url: documentation/get-mvvmcross/two-deep/
+    url: /test-gh/documentation/get-mvvmcross/two-deep/
     subitems:
     - text: Three Deep
-      url: documentation/get-mvvmcross/two-deep/three-deep/
+      url: /test-gh/documentation/get-mvvmcross/two-deep/three-deep/
