@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: doc
 title: Documentation
 permalink: /documentation/
-menus: main
 menus:
   main:
     identifier: documentation

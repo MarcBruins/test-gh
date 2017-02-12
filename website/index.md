@@ -4,9 +4,3 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
-<nav>
-  {% assign menu = site.menus.main %}
-  {% include
-    _menus.html
-  %}
-</nav>
