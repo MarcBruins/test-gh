@@ -10,7 +10,6 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-    { unless page.exclude_from_nav }
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
@@ -18,7 +17,6 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
       </li>
-    { endunless }
     {% endfor %}
   </ul>
 
