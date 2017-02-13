@@ -2,6 +2,8 @@
 
 - text: Getting Started with MvvmCross
   url: /test-gh/documentation/getting-started-with-mvvmcross/
+- text:Test
+  url: /test-gh/documentation/test/
 - text: Get MvvmCross
   url: /test-gh/documentation/get-mvvmcross/
   subitems:
